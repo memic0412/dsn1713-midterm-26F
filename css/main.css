@@ -41,7 +41,8 @@
 
 .container{
   max-width: 1200px;
-  --bs-gutter-x:20rem;
+  --bs-gutter-x:15rem;
+  
 }
 
 body {
@@ -53,7 +54,8 @@ h1, h2, h3 {
 }
 
 #hero {
-  height: 800px;
+  height: 600px;
+  width: auto;
   background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
@@ -76,12 +78,13 @@ h1, h2, h3 {
   height: 400px;
 }
 
+
 section:not(#hero):not(#cta){
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 @media(min-width: 993px){
   section:not(#hero):not(#cta){
-    padding: 100px 0;
+    padding: 30px 0;
   }
 }
