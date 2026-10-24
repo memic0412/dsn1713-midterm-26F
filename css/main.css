@@ -6,7 +6,7 @@
 --primary-rgb: 46, 72, 58;
 
 --bg-yt: #F6F3ED;
---body-bg-yt-rgb: 246, 243, 237;
+--bg-yt-rgb: 246, 243, 237;
 
 --light-color: #f6f3ed;
 
@@ -72,7 +72,14 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 #cta .d-flex {
   height: 400px;
